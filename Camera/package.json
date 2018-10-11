@@ -1,0 +1,9 @@
+{
+  "name": "Camera",
+  "version": "1.0.0",
+  "description": "js 调用摄像头等",
+  "main": "index.js",
+  "repository": "git@github.com:MaBillion/Camera.git",
+  "author": "chao.ma <chao.ma@brilliantaero.com>",
+  "license": "MIT"
+}

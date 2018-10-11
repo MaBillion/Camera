@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <video id="video" width="400px" height="400px" autoplay="autoplay"></video>
+        <canvas id="canvas" width="400px" height="400px"></canvas>
+        <div>
+            <input type="button" title="开启摄像头" value="开启摄像头" onclick="getMedia()" />
+            <input type="button" title="关闭摄像头" value="关闭摄像头" onclick="closeMedia()" />
+            <button id="snap" onclick="takePhoto()">拍照</button>
+        </div>
+        <script src="./index.js"></script>
+</body>
+</html>
